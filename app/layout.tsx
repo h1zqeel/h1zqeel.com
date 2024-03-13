@@ -6,24 +6,24 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "chronark.com",
-    template: "%s | chronark.com",
+    default: "h1zqeel.com",
+    template: "%s | h1zqeel.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Software Engineer",
   openGraph: {
-    title: "chronark.com",
+    title: "h1zqeel.com",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
-    siteName: "chronark.com",
+      "Software Engineer",
+    url: "https://h1zqeel.com",
+    siteName: "h1zqeel.com",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://h1zqeel.com/og.png",
         width: 1920,
         height: 1080,
       },
     ],
-    locale: "en-US",
+    locale: "en-AU",
     type: "website",
   },
   robots: {
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "h1zqeel",
     card: "summary_large_image",
   },
   icons: {
