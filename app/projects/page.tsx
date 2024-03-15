@@ -45,9 +45,6 @@ export default async function ProjectsPage() {
           <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
             Projects
           </h2>
-          <p className="mt-4 text-zinc-400">
-            Some of the projects are from work and some are on my own time.
-          </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />
 
