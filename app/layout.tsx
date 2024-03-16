@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "h1zqeel.com",
     images: [
       {
-        url: "https://h1zqeel.com/og.png",
+        url: "https://h1zqeel.com/og.jpg",
         width: 1920,
         height: 1080,
       },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "/favicon.jpg",
   },
 };
 const inter = Inter({
