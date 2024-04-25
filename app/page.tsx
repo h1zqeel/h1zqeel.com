@@ -1,6 +1,9 @@
+'use client';
+
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 import Particles from "./components/particles";
+import axios from "axios";
 
 const navigation = [
   { name: "Projects", href: "/projects" },
@@ -8,6 +11,13 @@ const navigation = [
 ];
 
 export default function Home() {
+  const handleView = async ()  => {
+    const visitor = await axios.get('http://ipinfo.io');
+    await axios.post('views/api', visitor.data);
+  }
+  useEffect(()=>{
+      handleView()
+    }, []);
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
       <nav className="my-16 animate-fade-in">
