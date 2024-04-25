@@ -12,7 +12,7 @@ const navigation = [
 
 export default function Home() {
   const handleView = async ()  => {
-    const visitor = await axios.get('http://ipinfo.io');
+    const visitor = await axios.get('https://ipinfo.io');
     await axios.post('views/api', visitor.data);
   }
   useEffect(()=>{
