@@ -9,13 +9,13 @@ export async function POST(req: Request) {
         },
         to: [
             {
-                email: "admin@h1zqeel.com",
+                email: "hizqeeljaved2013@gmail.com",
             },
         ],
         subject: "New visitor on h1zqeel.com",
         personalization: [
             {
-                email: "admin@h1zqeel.com",
+                email: "hizqeeljaved2013@gmail.com",
                 data: {
                     to_name: "Hizqeel Javed",
                     viewer_ip: visitor.ip,
