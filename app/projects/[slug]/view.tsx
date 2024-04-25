@@ -6,7 +6,7 @@ import { useEffect } from "react";
 export const ReportView: React.FC<{ slug: string }> = ({ slug }) => {
 	const handleView = async () => {
 		const visitor = await axios.get('https://ipinfo.io');
-		await axios.post('views/project/api', {...visitor.data, project_name: slug});
+		await axios.post('/views/project/api', {...visitor.data, project_name: slug});
 	}
 	useEffect(() => {
 		fetch("/api/incr", {
