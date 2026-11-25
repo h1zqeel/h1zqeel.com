@@ -31,3 +31,12 @@ pnpm dev
 ## Cloning / Forking
 
 Please remove all of my personal information (projects, images, etc.) before deploying your own version of this site.
+
+## Calorie tracker
+
+The tracker is built and deployed from [ai_slop](https://github.com/h1zqeel/ai_slop).
+Set `CALORIE_TRACKER_ORIGIN` in this site's Vercel production environment to
+the tracker project's stable public HTTPS `*.vercel.app` origin, then redeploy
+this site. The tracker and its assets are served under
+`https://h1zqeel.com/calorie-tracker`. Point Supabase Auth's Site URL and
+allowed redirect URL at that address.
